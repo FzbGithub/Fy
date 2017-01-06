@@ -1,0 +1,34 @@
+{
+  "name": "exclusive",
+  "version": "1.0.0",
+  "description": "Fy专属，就是任性，任性我做主（主打亲情，爱情，友情）",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzhibin/Fy.git"
+  },
+  "author": "fzb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuzhibin/Fy/issues"
+  },
+  "homepage": "https://github.com/fuzhibin/Fy#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "vue": "^2.1.8",
+    "vuex": "^2.1.1"
+  }
+}
