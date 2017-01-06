@@ -7,6 +7,13 @@ Fy专属，就是任性，任性我做主（主打亲情，爱情，友情）
 cd ~/ .ssh 检查是否存在ssh key ,没有创建ssh key
 ssh-keygen -t rsa -C "github上的邮件地址" 创建一个新的ssh key
 /**
+ * 本地项目提交到GitHub,首先在github上面创建于本地项目同名的仓库，然后复制其ssh地址git@github.com:FzbGithub，然后执行如下代码，
+ * 第一次上传到github成功
+ *git init ,git add . , git commit -m "第一次从本地上传全部文件"
+ * git remote add origin git@github.com:FzbGithub/Fy.git， 第一次提交 git push -u origin master,
+ * 以后上传到github就可以直接git push 就行了
+ */
+/**
  * 全局安装node.js,webpack，项目安装vue,webpack
  */
 /**
