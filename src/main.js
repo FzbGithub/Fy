@@ -35,7 +35,7 @@ var vm=new Vue({
     },
     methods: {
         counter () {
-            this.count1++;
+            store3.commit("increment");
         }
     }
 
