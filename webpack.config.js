@@ -14,7 +14,8 @@ module.exports= {
     module: {
         loaders:[
             {test:/\.jsx?$/,loader:'babel',exclude:/node_modules/},
-            {test:/\.css$/,loader:'css!style'}
+            {test:/\.css$/,loader:'css!style'},
+            {test:/\.vue/,loader:'vue-loader'}
         ]
     }
 
